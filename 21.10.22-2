@@ -1,0 +1,23 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main()
+{
+	double a, b, c, d;
+	setlocale(LC_ALL, "Russian");
+	cout << "Введите коэффиценты квадратного уравнения: a, b, c" << endl;
+	cin >> a >> b >> c;
+	d = b * b - 4 * a * c;
+	if (d < 0) {
+		cout << "Нет корней";
+	}
+	if (d == 0) {
+		cout << "Один корень";
+	}
+	if (d > 0) {
+		cout << "Два корня";
+	}
+
+
+}
