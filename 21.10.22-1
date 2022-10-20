@@ -1,0 +1,28 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main()
+{
+	setlocale(LC_ALL, "Russian");
+	int n;
+	cin >> n;
+	switch (n) {
+	case 1:
+		cout << "Налево - горизонтально" << endl;
+		break;
+	case 2:
+		cout << "Вверх - вертикально" << endl;
+		break;
+	case 3:
+		cout << "Направо - горизонтально" << endl;
+		break;
+	case 4:
+		cout << "Вниз - вертикально" << endl;
+		break;
+	default:
+		cout << "Ошибка" << endl;
+		break;
+	}
+
+}
