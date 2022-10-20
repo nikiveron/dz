@@ -1,0 +1,19 @@
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+
+int main()
+{
+	int n = 0, ind = 0;
+	setlocale(LC_ALL, "Russian");
+	cout << "Вводите поочередно числа" << endl;
+	for (int i = 1; n >= 0; i++) {
+		cin >> n;
+		if (n < 0) {
+			ind = i;
+			break;
+		}
+	}
+	cout << ind;
+}
