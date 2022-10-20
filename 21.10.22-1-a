@@ -9,16 +9,16 @@ int main()
 	cin >> n;
 	switch (n) {
 	case 1:
-		cout << "Налево - горизонтально" << endl;
+		cout << "Налево" << endl;
 		break;
 	case 2:
-		cout << "Вверх - вертикально" << endl;
+		cout << "Вверх" << endl;
 		break;
 	case 3:
-		cout << "Направо - горизонтально" << endl;
+		cout << "Направо" << endl;
 		break;
 	case 4:
-		cout << "Вниз - вертикально" << endl;
+		cout << "Вниз" << endl;
 		break;
 	default:
 		cout << "Ошибка" << endl;
